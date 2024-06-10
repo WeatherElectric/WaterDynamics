@@ -6,6 +6,8 @@ Water Physics for BONELAB.
 
 ![Water Dynamics](https://cdn.weatherelectric.xyz/assets/bonelab/waterdynamics/waterdynamics.gif)
 
+# REQUIRES MELONLOADER 0.6.1!
+
 ## Installation
 1. Download the latest release from the [releases page](https://github.com/WeatherElectric/WaterDynamics/releases) or [Thunderstore page](https://thunderstore.io/c/bonelab/p/SoulWithMae/WaterDynamics/)
 2. Drag the "Mods" folder within the zip into your BONELAB directory
