@@ -11,7 +11,7 @@ public class Main : MelonMod
 #else
     internal const string Version = "1.0.0";
 #endif
-    internal const string DownloadLink = null;
+    internal const string DownloadLink = "https://thunderstore.io/c/bonelab/p/SoulWithMae/WaterDynamics/";
 
     public override void OnInitializeMelon()
     {
