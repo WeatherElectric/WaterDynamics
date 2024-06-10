@@ -8,7 +8,7 @@ public class Main : MelonMod
     internal const string Company = "Weather Electric";
 #if DEBUG
     internal const string Version = "0.0.1";
-#elif RELEASE
+#else
     internal const string Version = "1.0.0";
 #endif
     internal const string DownloadLink = null;
@@ -17,5 +17,8 @@ public class Main : MelonMod
     {
         ModConsole.Setup(LoggerInstance);
         Preferences.Setup();
+        Assets.LoadAssets();
+        
+        FieldInjection.Inject();
     }
 }

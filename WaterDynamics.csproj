@@ -41,6 +41,8 @@
     <ItemGroup>
         <EmbeddedResource Remove="Links\**"/>
         <EmbeddedResource Remove="Staging\**"/>
+        <None Remove="Resources\SplashPrefab.Windows.pack" />
+        <EmbeddedResource Include="Resources\SplashPrefab.Windows.pack" />
     </ItemGroup>
 
     <ItemGroup>
@@ -73,6 +75,10 @@
             <HintPath>Links\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
             <Private>false</Private>
         </Reference>
+        <Reference Include="UnityEngine.AssetBundleModule">
+            <HintPath>Links\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
         <Reference Include="UnityEngine.PhysicsModule">
             <HintPath>Links\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
             <Private>false</Private>
@@ -84,7 +90,7 @@
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="COPY &quot;$(TargetPath)&quot; &quot;$(SolutionDir)Links\Mods&quot;" />
+      <Exec Command="COPY &quot;$(TargetPath)&quot; &quot;$(SolutionDir)Links\Mods&quot;&#xA;COPY &quot;$(TargetPath)&quot; &quot;$(SolutionDir)Staging\Mods&quot;&#xA;COPY &quot;$(SolutionDir)README.md&quot; &quot;$(SolutionDir)Staging&quot;" />
     </Target>
 
 </Project>
