@@ -1,6 +1,6 @@
 using Il2CppInterop.Runtime.Attributes;
 using Il2CppInterop.Runtime.InteropTypes.Fields;
-using Il2CppSLZ.Rig;
+using Il2CppSLZ.Marrow;
 
 // ReSharper disable UnassignedField.Global
 // ReSharper disable FieldCanBeMadeReadOnly.Global

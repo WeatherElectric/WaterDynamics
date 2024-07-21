@@ -71,6 +71,10 @@
             <HintPath>Links\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
             <Private>false</Private>
         </Reference>
+        <Reference Include="Il2CppSLZ.Marrow">
+            <HintPath>Links\MelonLoader\Il2CppAssemblies\Il2CppSLZ.Marrow.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>Links\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
             <Private>false</Private>

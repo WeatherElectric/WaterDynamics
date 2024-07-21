@@ -22,7 +22,7 @@ public class Main : MelonMod
 #if DEBUG
         ModConsole.Warning("This is a debug build!");
 #endif
-        
+
         FieldInjection.Inject();
     }
 }
